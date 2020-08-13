@@ -16,3 +16,11 @@ Guided project **DB II** Module.
 - [ ] type `npm run server` to start the API.
 
 Please follow along as the instructor explores schema design with this API.
+
+## Mantras!!!
+- every table must have a PRIMARY KEY
+- every change to the database schema (structure, NOT the data) must be done with a new migration
+
+## Migrations
+- create the migration -> `knex migrate:make name`
+- run the pending migrations -> `knex migrate:latest`
